@@ -4,5 +4,23 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [react(), tailwindcss()],
+    plugins: [react(), tailwindcss()],
+    build: {
+        outDir: 'dist',
+        sourcemap: false,
+        minify: 'terser',
+        rollupOptions: {
+            output: {
+                manualChunks: {
+                    vendor: ['react', 'react-dom'],
+                    animations: ['framer-motion'],
+                    icons: ['lucide-react']
+                }
+            }
+        }
+    },
+    server: {
+        port: 3000,
+        open: true
+    }
 })
