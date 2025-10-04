@@ -2,7 +2,7 @@
 
 A modern, minimal, and elegant personal portfolio website built with React and Tailwind CSS. Features a sleek dark theme with smooth animations, responsive design, and interactive elements.
 
-![Portfolio Preview](https://imgur.com/6qVpmaG)
+![Portfolio Preview](https://i.imgur.com/6qVpmaG.png)
 
 ## ✨ Features
 
@@ -95,3 +95,4 @@ A modern, minimal, and elegant personal portfolio website built with React and T
 
 
 🔗 **Live Demo**: https://alperdev.codes
+
