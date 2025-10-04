@@ -1,7 +1,14 @@
 {
-  "name": "porfoliov2",
+  "name": "portfolio",
   "private": true,
-  "version": "0.0.0",
+  "author": {
+    "name": "alperdev",
+    "email": "contact@alperdev.codes",
+    "url": "https://github.com/alper-dev"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/alper-dev/portfolio",
+  "version": "2.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
